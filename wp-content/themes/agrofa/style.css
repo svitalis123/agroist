@@ -3611,6 +3611,7 @@ h2 .rss-widget-title {
     --agrofa-bg: #f7f4e5;
     --agrofa-text-white: #fff;
     --agrofa-text-b: #fff;
+    --agrofa-img-bg: #FFFDF1;
     --agrofa-text-rgb: 18, 17, 14;
     --agrofa-text2: #172000;
     --agrofa-text2-rgb: 23, 32, 0;
@@ -5635,6 +5636,7 @@ h6 {
 }
 
 .team-skills-one__right-image__bg {
+    background-color: var(--agrofa-img-bg);
     position: relative;
     z-index: 2;
 }
@@ -8085,7 +8087,8 @@ h6 {
 }
 
 .main-header__logo {
-    display: flex;
+    /* display: flex; */
+    display: block;
     max-width: 264px;
     height: 110px;
     align-items: center;
@@ -8115,7 +8118,8 @@ h6 {
         max-width: 160px;
         height: 90px;
         top: 15px;
-        padding: 10px 20px 10px 20px;
+        /* padding: 10px 20px 10px 20px; */
+        padding: 2rem;
     }
 }
 
@@ -9236,11 +9240,10 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 
 .why-choose-one__icon-bx {
-    width: 90px;
-    height: 90px;
+    width: 280px;
+    height: 280px;
     min-width: 90px;
     min-height: 90px;
-    border-radius: 50%;
     background-color: var(--agrofa-green, #0c7735);
     border: 4px solid var(--agrofa-yellow, 253, 214, 31);
     display: flex;
@@ -9295,7 +9298,7 @@ body.megamenu-popup-active .mobile-nav__content {
     bottom: -88px;
     left: 0;
     right: 0;
-    z-index: 1;
+    z-index: 8;
     margin: 0 auto;
 }
 
@@ -31338,4 +31341,8 @@ form.woocommerce-checkout .shop_table tfoot tr th {
 
 .woocommerce-info a.showcoupon {
     color: var(--agrofa-yellow);
+}
+
+.rumex_width {
+    width: 75% !important;
 }
