@@ -200,3 +200,7 @@
 .icon-star1:before {
     content: "\e925";
 }
+
+#switch {
+    cursor: pointer;
+}
