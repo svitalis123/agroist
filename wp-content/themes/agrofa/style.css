@@ -7103,7 +7103,7 @@ h6 {
     height: 35px;
     background-color: var(--agrofa-white, #fff);
     border-radius: 50%;
-    color: #433838;
+    /* color: #433838; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18469,6 +18469,8 @@ body.megamenu-popup-active .mobile-nav__content {
     color: var(--agrofa-text, #12110e);
     font-size: 57px;
     line-height: 1;
+    display: flex;
+    justify-content: center;
     transition: all 0.3s;
 }
 
@@ -31345,4 +31347,26 @@ form.woocommerce-checkout .shop_table tfoot tr th {
 
 .rumex_width {
     width: 75% !important;
+}
+
+.icon-left-arrow1,
+.icon-right-arrow1 {
+    display: flex;
+}
+
+.icon-left-arrow1 > i,
+.icon-right-arrow1 > i {
+    color: #fff;
+}
+
+.icons_s {
+    color: #FFF;
+}
+
+.my_value_h2 {
+    text-align: center;
+    color: var(--agrofa-text-white);
+    position: relative;
+    transform: translateY(-150px);
+    z-index: 3;
 }
