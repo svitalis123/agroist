@@ -1,0 +1,4 @@
+Sitemap: https://luminous-taffy-ccb052.netlify.app/
+
+User-agent: *
+Allow: /
