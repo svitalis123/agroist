@@ -1,4 +1,4 @@
-Sitemap: https://luminous-taffy-ccb052.netlify.app/
+Sitemap: https://maltafreshltd.co.ke/
 
 User-agent: *
 Allow: /
